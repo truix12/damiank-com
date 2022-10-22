@@ -20,8 +20,41 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.intro {
+h1 {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.description {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.intro {
+  margin-bottom: 8px;
+}
+
+.portfolio {
+  font-weight: 600;
+  margin: 50px 0 90px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.in,
+.li {
+  height: 40px;
+  margin: 15px;
+  text-decoration: none;
+  width: 40px;
 }
