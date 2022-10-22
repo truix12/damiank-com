@@ -15,10 +15,10 @@ body {
 
 .wrapper {
   left: 50%;
-  min-width: 500px;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 h1 {
